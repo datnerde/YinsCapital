@@ -7,7 +7,8 @@
 #'
 #' # Define function
 AI_Screener <- function(
-  tickers = c("AAPL", "FB"),
+  tickers = c("AXP", "AAPL", "FB"),
+  time_unit = "week",
   to.date = Sys.Date(),
   cutoff = 0.5,
   threshold = 0.03,
@@ -18,6 +19,7 @@ AI_Screener <- function(
   # Ge Data
   screening_process <- lapply(tickers, function(x) YinsCapital::AI_Predictor(
     tickers = x,
+    time_unit = time_unit,
     to.date = to.date,
     cutoff = cutoff,
     threshold = threshold,
