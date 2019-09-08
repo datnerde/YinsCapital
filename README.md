@@ -23,9 +23,8 @@ This is the official quantitative and statistical software package by Yin's Capi
 You must have the following packages.
 
 ```
-# Note: you must have these packages:
-# quantmod, plotly, shiny, shinysky, shinythemes, corrplot, forecast, xts, dygraphs, ggplot2, reshape2, gtools, reshape2, gtools, DT, rnn, plot3D, plotly, parcoords, quandprog, pROC, matrixcalc, XML, beepr, data.table, scales, fPortfolio, finreportr, knitrr, treemap, tidyquant, gridExtra
-# Please install them if you do not have them. 
+# Initialize:
+# Please see https://yinscapital.com/yins-shop/
 
 # Another prerequisite is Yin's Library Software Package:
 # Access here: https://github.com/yiqiao-yin/YinsLibrary
@@ -57,38 +56,8 @@ There are the following categories:
 
 ####################### INITIATE ALL LIBRARIES #######################
 
-# INSTALL LIBRARY
-library('quantmod')
-library('plotly')
-library('shiny')
-library('shinysky')
-library('shinythemes')
-library('corrplot')
-library('forecast')
-library('xts')
-library('dygraphs')
-library('ggplot2')
-library('reshape2')
-library('gtools')
-library('DT')
-library('rnn')
-library("plot3D")
-library("plotly")
-library("parcoords")
-library("quadprog")
-library("pROC")
-library("matrixcalc")
-library("XML")
-library("beepr")
-library('data.table')
-library('scales')
-library('ggplot2')
-library('fPortfolio')
-library('finreportr')
-library('knitr')
-library('treemap')
-library('tidyquant')
-library('gridExtra')
+# Initialize:
+# Please see https://yinscapital.com/yins-shop/
 
 ####################### AUTONOMOUS VISUALIZATION #######################
 AutoViz <- YinsCapital::AutoViz_Portfolio(
