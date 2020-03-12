@@ -14,7 +14,7 @@ This is the official quantitative and statistical software package by Yin's Capi
 </p>
 
 - Copyright © Official quantitative and statistical software published by Yin's Capital.
-- Copyright © 2010 – 2019 Yiqiao Yin
+- Copyright © 2010 – Present Yiqiao Yin
 - Contact: Yiqiao Yin
 - Email: Yiqiao.Yin@YinsCapital.com
 
